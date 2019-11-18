@@ -1,0 +1,25 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(NYC.jpg);
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+#2 {
+  letter-spacing: 3px;
+}
+.Title {
+  color: black;
+  letter-spacing: 10px;
+  z-index: 1;
+}
+div:nth-of-type(2) {
+  position: relative;
+}
+h2 {
+  position: absolute;
+}
