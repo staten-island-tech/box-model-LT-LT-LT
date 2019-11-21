@@ -12,9 +12,15 @@ body {
 }
 .Header {
   height: 30rem;
-  background-color: rgba(5, 4, 4, 0.273);
   position: relative;
   margin: 1rem;
+}
+img {
+  position: absolute;
+  opacity: 0.273;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 .Title {
   position: absolute;
@@ -29,4 +35,5 @@ body {
   color: gray;
   top: 20%;
   letter-spacing: 1px;
+  z-index: 2;
 }
