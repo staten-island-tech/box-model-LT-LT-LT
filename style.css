@@ -1,25 +1,32 @@
 html {
   margin: 0;
   padding: 0;
+  font-size: 62.5%;
   box-sizing: border-box;
 }
 body {
   background-image: url(NYC.jpg);
-  height: 100vh;
+  background-size: cover;
+  background-position: center;
   font-family: "Open Sans", sans-serif;
-  text-align: center;
 }
-#1 {
-  letter-spacing: 30px;
+.Header {
+  height: 30rem;
+  background-color: rgba(5, 4, 4, 0.273);
+  position: relative;
+  margin: 1rem;
 }
 .Title {
-  letter-spacing: 10px;
   position: absolute;
+  color: black;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 10px;
+  text-transform: uppercase;
 }
-div:nth-of-type(1) {
-  color: rgba(128, 128, 128, 0.473);
-  position: relative;
-}
-h1 {
-  margin: 10 auto;
+#Subtitle {
+  color: gray;
+  top: 20%;
+  letter-spacing: 1px;
 }
